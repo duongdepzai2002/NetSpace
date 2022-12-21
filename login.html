@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./assets/css/login.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="container">
+			<form action="" class="form form-login active">
+				<i class="form-heading__icon fa-solid fa-mug-saucer"></i>
+				<h2 class="form-heading">Welcome Back</h2>
+				<div class="form-input">
+					<input type="text" class="login-user-name" placeholder="Username" required />
+					<i class="fa-solid fa-user"></i>
+				</div>
+				<div class="form-input">
+					<input type="password" class="login-password" placeholder="Password" required />
+					<i class="fa-solid fa-key"></i>
+				</div>
+				<a href="" class="forgot-password">Forgot-Password?</a>
+				<div class="form-check">
+					<input type="checkbox" class="form-check__input" />
+					<span class="form-check__title">Remember me</span>
+				</div>
+				<input type="submit" class="submit signin-btn" value="SIGN IN" />
+				<p class="form-swap">
+					Not a member?
+					<span class="form-swap--signup"> Signup now</span>
+				</p>
+			</form>
+
+			<form class="form form-signup">
+				<i class="form-heading__icon form-heading__icon--purple fa-solid fa-user"></i>
+				<h2 class="form-heading">Create an Account</h2>
+				<div class="form-input">
+					<input class="email" type="Email" placeholder="Email" required />
+					<i class="fa-solid fa-envelope"></i>
+				</div>
+				<div class="form-input">
+					<input class="user-name" type="text" placeholder="Username" required />
+					<i class="fa-solid fa-user"></i>
+				</div>
+				<div class="form-input">
+					<input class="password" type="password" placeholder="Password" required />
+					<i class="fa-solid fa-key"></i>
+				</div>
+				<div class="form-input">
+					<input class="confirm-password" type="password" placeholder="Confirm Password" required />
+					<i class="fa-solid fa-rotate"></i>
+				</div>
+				<div class="form-check">
+					<input type="checkbox" class="form-check__input" />
+					<span class="form-check__title"
+						>I have read and agree to
+						<a href="">term</a>
+					</span>
+				</div>
+				<input type="submit" class="submit signup-btn" value="SIGN UP" />
+				<p class="form-swap">
+					Already a member?
+					<span class="form-swap--login" href="">Login here</span>
+				</p>
+			</form>
+		</div>
+		<script src="./assets/js/login.js"></script>
+	</body>
+</html>
